@@ -7,7 +7,7 @@
 </head>
 <body>
     <div class="class" align="center">
-        <h2>WeFinanceHere.com is Currently Under Construction PHP</h2>
+        <h2>WeFinanceHere.com is Currently Under Construction</h2>
     </div>
 </body>
 </html>
