@@ -1,7 +1,7 @@
 <?php require_once('../Connections/idsconnection.php'); ?>
 <?php require_once('../Connections/wfh_connection.php'); ?>
 <?php
-if (!function_exists("GetSQLValueString")) {
+
 
 $colname_userDets = "-1";
 if (isset($_SESSION['MM_wfhuserUsername'])) {

@@ -55,7 +55,7 @@ $totalRows_wfh_latestaprovals_verified = mysqli_num_rows($wfh_latestaprovals_ver
 <body data-spy="scroll">
 <?php include_once("analyticstracking.php") ?>
 <!-- Start Modals -->
-		<?php include("inc/wfh.modals.php"); ?>
+		<?php //include("inc/wfh.modals.php"); ?>
 <!-- End Modals -->
 
 

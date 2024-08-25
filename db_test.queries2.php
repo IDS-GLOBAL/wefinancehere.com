@@ -42,7 +42,7 @@ $startRow_LiveVehicles = $pageNum_LiveVehicles * $maxRows_LiveVehicles;
 
 mysqli_select_db($idsconnection_mysqli, $database_idsconnection);
 $query_LiveVehicles = "SELECT * FROM vehicles, dealers WHERE vehicles.did = dealers.id AND dealers.status AND vehicles.vlivestatus = '1'";
-$query_limit_LiveVehicles =  "%s LIMIT %d, %d", $query_LiveVehicles, $startRow_LiveVehicles, $maxRows_LiveVehicles);
+$query_limit_LiveVehicles =  sprintf("%s LIMIT %d, %d", $query_LiveVehicles, $startRow_LiveVehicles, $maxRows_LiveVehicles);
 $LiveVehicles = mysqli_query($idsconnection_mysqli, $query_limit_LiveVehicles);
 $row_LiveVehicles = mysqli_fetch_assoc($LiveVehicles);
 
@@ -65,7 +65,7 @@ if (isset($_GET['wfhuser_approval_email'])) {
   $colname_find_emailapproval = $_GET['wfhuser_approval_email'];
 }
 mysqli_select_db($idsconnection_mysqli, $database_idsconnection);
-$query_find_emailapproval =  "SELECT * FROM wfhuser_approvals WHERE wfhuser_approval_email = %s ORDER BY wfhuser_approvals.wfhuser_approval_id DESC", GetSQLValueString($colname_find_emailapproval, "text"));
+$query_find_emailapproval =  sprintf("SELECT * FROM wfhuser_approvals WHERE wfhuser_approval_email = %s ORDER BY wfhuser_approvals.wfhuser_approval_id DESC", GetSQLValueString($colname_find_emailapproval, "text"));
 $find_emailapproval = mysqli_query($idsconnection_mysqli, $query_find_emailapproval);
 $row_find_emailapproval = mysqli_fetch_assoc($find_emailapproval);
 $totalRows_find_emailapproval = mysqli_num_rows($find_emailapproval);
@@ -84,7 +84,7 @@ if (!empty($_SERVER['QUERY_STRING'])) {
     $queryString_LiveVehicles = "&" . htmlentities(implode("&", $newParams));
   }
 }
-$queryString_LiveVehicles =  "&totalRows_LiveVehicles=%d%s", $totalRows_LiveVehicles, $queryString_LiveVehicles);
+$queryString_LiveVehicles =  sprintf("&totalRows_LiveVehicles=%d%s", $totalRows_LiveVehicles, $queryString_LiveVehicles);
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
