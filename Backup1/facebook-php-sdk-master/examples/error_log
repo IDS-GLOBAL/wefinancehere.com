@@ -1,0 +1,6 @@
+[02-Oct-2013 14:20:04] PHP Fatal error:  Uncaught OAuthException: This IP can't make requests for that application.
+  thrown in /home4/idsids/public_html/new-wefinancehere.com/facebook-php-sdk-master/src/base_facebook.php on line 1271
+[02-Oct-2013 14:54:35] PHP Fatal error:  Uncaught OAuthException: This IP can't make requests for that application.
+  thrown in /home4/idsids/public_html/new-wefinancehere.com/facebook-php-sdk-master/src/base_facebook.php on line 1271
+[02-Oct-2013 15:00:11] PHP Fatal error:  Uncaught OAuthException: This IP can't make requests for that application.
+  thrown in /home4/idsids/public_html/new-wefinancehere.com/facebook-php-sdk-master/src/base_facebook.php on line 1271

@@ -1,0 +1,46 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title>Prototype FishEye : &lt;default&gt;</title>
+<script type='text/javascript' src='PrototypeFishEye/includes/prototype.js'></script>
+<script type='text/javascript' src='PrototypeFishEye/includes/effects.js'></script>
+<script type='text/javascript' src='PrototypeFishEye/includes/EventDispatcher.js'></script>
+<script type='text/javascript' src='PrototypeFishEye/includes/FishEye.js'></script>
+<style type="text/css">
+#PrototypeFishEye.fishEye{
+			height:175px;
+			border:1px solid #000000;
+			padding:10px;
+			text-align:center;
+			background-color:#ffffff;
+			margin-top:0px;
+			margin-bottom:0px;
+		}
+		#PrototypeFishEye.fishEye img{
+			width:50px;
+			height:50px;
+			margin-top:50px;
+			margin-bottom:100px;
+		}
+</style>
+</head>
+
+<body>
+<div id="PrototypeFishEye" class="fishEye">
+		<img src="PrototypeFishEye/images/My-PC.png" href="#" title="Products" alt="Products" />
+		<img src="PrototypeFishEye/images/My-Documents.png" href="#" alt="Projects" title="Projects"/>
+		<img src="PrototypeFishEye/images/My-Music.png" href="#" title="Blog" alt="Blog"/>
+		<img src="PrototypeFishEye/images/Search.png"  href="#" title="Blog Search" alt="Blog Search"/>
+		<img src="PrototypeFishEye/images/My-Network.png"  href="#" title="Links I Like" alt="Links I Like"/>
+	</div>
+<script type="text/javascript">
+var PrototypeFishEye = function(e){
+		var ele = Event.element(e);
+		window.location = ele.getAttribute("href");
+	}
+	var PrototypeFishEyelinkRelay = new FishEyeToolBar("PrototypeFishEye");
+	PrototypeFishEye.addEventListener("itemClick", PrototypeFishEyelinkRelay);
+</script>
+</body>
+</html>

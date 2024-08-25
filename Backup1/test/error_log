@@ -1,0 +1,37 @@
+[02-Oct-2013 15:21:38] PHP Warning:  require_once(base_facebook.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home4/idsids/public_html/new-wefinancehere.com/test/libs/facebook.php on line 18
+[02-Oct-2013 15:21:38] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'base_facebook.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home4/idsids/public_html/new-wefinancehere.com/test/libs/facebook.php on line 18
+[02-Oct-2013 15:23:10] PHP Warning:  require_once(base_facebook.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home4/idsids/public_html/new-wefinancehere.com/test/libs/facebook.php on line 19
+[02-Oct-2013 15:23:10] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'base_facebook.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home4/idsids/public_html/new-wefinancehere.com/test/libs/facebook.php on line 19
+[02-Oct-2013 15:23:37] PHP Warning:  require_once(base_facebook.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home4/idsids/public_html/new-wefinancehere.com/test/libs/facebook.php on line 19
+[02-Oct-2013 15:23:37] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'base_facebook.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home4/idsids/public_html/new-wefinancehere.com/test/libs/facebook.php on line 19
+[02-Oct-2013 15:23:56] PHP Warning:  require_once(base_facebook.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home4/idsids/public_html/new-wefinancehere.com/test/libs/facebook.php on line 18
+[02-Oct-2013 15:23:56] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'base_facebook.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home4/idsids/public_html/new-wefinancehere.com/test/libs/facebook.php on line 18
+[02-Oct-2013 15:24:35] PHP Warning:  require_once(base_facebook.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home4/idsids/public_html/new-wefinancehere.com/test/libs/facebook.php on line 18
+[02-Oct-2013 15:24:35] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'base_facebook.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home4/idsids/public_html/new-wefinancehere.com/test/libs/facebook.php on line 18
+[02-Oct-2013 15:24:37] PHP Warning:  require_once(base_facebook.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home4/idsids/public_html/new-wefinancehere.com/test/libs/facebook.php on line 18
+[02-Oct-2013 15:24:37] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'base_facebook.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home4/idsids/public_html/new-wefinancehere.com/test/libs/facebook.php on line 18
+[02-Oct-2013 15:24:59] PHP Warning:  require_once(base_facebook.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home4/idsids/public_html/new-wefinancehere.com/test/libs/facebook.php on line 18
+[02-Oct-2013 15:24:59] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'base_facebook.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home4/idsids/public_html/new-wefinancehere.com/test/libs/facebook.php on line 18
+[02-Oct-2013 15:25:01] PHP Warning:  require_once(base_facebook.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home4/idsids/public_html/new-wefinancehere.com/test/libs/facebook.php on line 18
+[02-Oct-2013 15:25:01] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'base_facebook.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home4/idsids/public_html/new-wefinancehere.com/test/libs/facebook.php on line 18
+[02-Oct-2013 15:37:19] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cookie - headers already sent by (output started at /home4/idsids/public_html/new-wefinancehere.com/test/index.php:11) in /home4/idsids/public_html/new-wefinancehere.com/test/libs/facebook.php on line 50
+[02-Oct-2013 15:37:19] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home4/idsids/public_html/new-wefinancehere.com/test/index.php:11) in /home4/idsids/public_html/new-wefinancehere.com/test/libs/facebook.php on line 50
+[02-Oct-2013 15:37:19] PHP Fatal error:  Call to a member function getSession() on a non-object in /home4/idsids/public_html/new-wefinancehere.com/test/index.php on line 23
+[02-Oct-2013 15:59:24] CSRF state token does not match one provided.
+[02-Oct-2013 16:07:49] CSRF state token does not match one provided.
+[02-Oct-2013 16:07:51] CSRF state token does not match one provided.
+[02-Oct-2013 16:12:22] OAuthException: (#506) Duplicate status message
+[02-Oct-2013 18:00:41] CSRF state token does not match one provided.
+[02-Oct-2013 18:00:41] CSRF state token does not match one provided.
+[02-Oct-2013 18:00:42] OAuthException: (#506) Duplicate status message
+[02-Oct-2013 18:01:32] OAuthException: (#506) Duplicate status message
+[02-Oct-2013 18:01:38] OAuthException: (#506) Duplicate status message
+[02-Oct-2013 18:01:44] OAuthException: (#506) Duplicate status message
+[02-Oct-2013 18:02:55] CSRF state token does not match one provided.
+[02-Oct-2013 18:02:56] OAuthException: (#100) Missing message or attachment
+[02-Oct-2013 18:03:00] OAuthException: (#100) Missing message or attachment
+[02-Oct-2013 18:03:54] CSRF state token does not match one provided.
+[02-Oct-2013 18:03:55] CSRF state token does not match one provided.
+[02-Oct-2013 19:17:01] CSRF state token does not match one provided.
+[02-Oct-2013 19:17:08] CSRF state token does not match one provided.
+[04-Oct-2013 10:00:04] CSRF state token does not match one provided.

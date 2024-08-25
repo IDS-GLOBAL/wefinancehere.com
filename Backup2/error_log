@@ -1,0 +1,3 @@
+[26-Dec-2015 08:58:20 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'idsids_faith'@'localhost' (using password: YES) in /home4/idsids/public_html/Connections/idsconnection.php on line 9
+[26-Dec-2015 08:58:20 America/Chicago] PHP Fatal error:  Access denied for user 'idsids_faith'@'localhost' (using password: YES) in /home4/idsids/public_html/Connections/idsconnection.php on line 9
+[28-Feb-2016 14:05:35 America/Chicago] PHP Warning:  mysql_query(): Unable to save result set in /home4/idsids/public_html/new-wefinancehere.com/script_ajax_pull_state_vehicles.php on line 8

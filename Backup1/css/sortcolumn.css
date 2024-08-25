@@ -1,0 +1,31 @@
+@charset "utf-8";
+/* CSS Document */
+
+#sortvehicles{}
+
+
+#sortColumn{
+	/* position:fixed; */
+	padding: 5px;
+	float:left;
+	width: 270px;
+	background-color:#FFF;
+	border: 1px solid #DCDADA;
+	border-radius: 5px 5px 5px 5px;
+	box-shadow: 2px 2px 2px #E1E1E1;
+}
+
+#rightColumn{
+	padding: 5px;
+	width:680px; 
+	float: right;
+	background-color:#FFF;
+	border: 1px solid #DCDADA;
+	border-radius: 5px 5px 5px 5px;
+	box-shadow: 2px 2px 2px #E1E1E1;
+
+}
+
+.wrapper{}
+
+

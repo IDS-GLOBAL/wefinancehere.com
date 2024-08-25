@@ -1,0 +1,409 @@
+/* body { background-color:#333; margin:0 auto; background-image:url('images/interface/bgnoise.png');} */
+
+.clear{clear:both;}
+
+
+#previewWindow { margin-right: 5px;}
+
+.thumbox{
+	float: right;
+	padding: 1px 0 0 0;
+	width: 303px;
+}
+
+
+#primaryEmail{display:none;}
+
+#container { /* width:800px; height:498px; */ 
+			margin:0 auto; 
+			background-image:url('../../Shine_Gallery/wfh/images/interface/back_noise.png'); 
+			background-repeat:no-repeat; 
+			background-color:#111; 
+			margin-top:10px;
+			}
+
+#container .mainframe { width: 640px; height:450px; float:left}
+
+
+#container .thumbnails { float:right; width:293px; height:498px;  background-repeat:no-repeat;  background-image:url('../../Shine_Gallery/wfh/images/interface/total_grid.png'); background-position:9px 70px; }
+
+.thumbnailimage { float:left; padding:7px;}
+
+
+/* This is the display for the border image to display correctly*/
+.large_thumb	{float:left; position: relative; width:80px; height:65px; padding:0px 10px 0px 0;}
+
+
+
+
+img.large_thumb_image	{position:absolute; left:5px; top:4px;}
+
+
+
+/* This is the white border around the thumbnail */
+.large_thumb_border	{width:100%;  height:100%;  background:url('../../Shine_Gallery/wfh/images/interface/thumb_border.png'); position:absolute; background-repeat:no-repeat; }
+
+.large_thumb_shine	{width:80px; height:60px; background:url('../../Shine_Gallery/wfh/images/interface/shine.png'); position:absolute; background-position:-150px 0; left:5px; top:4px; background-repeat:no-repeat;}
+
+.thumb_container { width:80px; height:80px; background-image:url('../../Shine_Gallery/wfh/images/interface/thumb_holder.png'); background-repeat:no-repeat; }
+
+
+
+
+#loader { width: 640px; height:480px;
+	background-image: url('../../Shine_Gallery/wfh/images/interface/loader.gif');
+	background-repeat:no-repeat;
+	position: absolute;
+	background-position: center center;
+}
+
+
+#largephoto { 
+	width: 640px; 
+	height: 480px; 
+	background-color:#333333; 
+	margin-top:0; 
+	margin-left:5px; 
+	-moz-border-radius: 10px; 
+	-webkit-border-radius: 10px; 
+	border-left: 1px solid #fff; 
+	border-right: 1px solid #fff; 
+	border-bottom: 1px solid #fff; 
+	background-repeat:no-repeat;
+	}
+
+#largetrans { width: 640px; height:480px; background-image:url('../../Shine_Gallery/wfh/images/interface/main_bg_trans2.png'); -moz-border-radius: 10px; -webkit-border-radius: 10px; background-repeat:no-repeat;}
+
+
+.large_image { display:none}
+#containertitle { position:absolute; margin-top:35px; margin-left:40px; font-family:Arial, Helvetica, sans-serif; font-weight:bold; text-shadow: 0px 1px 2px #fff;}
+
+/* Controls The Black Border Across The Large Photo */
+#largecaption {
+	text-align:center;
+	height:100px;
+	width:100%;
+	background-color:#111;
+	position: absolute;
+	width: 640px;
+	margin-top:379px;
+	-moz-border-radius-bottomleft: 10px;
+	-moz-border-radius-bottomright: 10px;
+	-webkit-border-bottom-left-radius: 10px;
+	-webkit-border-bottom-right-radius: 10px;
+	display:none;
+	color:#fff;
+	font-size:30px;
+	font-family:Arial;
+	letter-spacing:-1px;
+	font-weight:bold;
+	margin-bottom: 100px;
+}
+
+#largecaption .captionContent { padding:5px;}
+
+/* This Makes The Wiping Effect Across The Large Main Photo */
+#largecaption .captionShine { padding-top: 5px; background:url('../../Shine_Gallery/wfh/images/interface/bigshine.png'); position:absolute;  width: 640px; height: 100px; background-position:-150px 0;background-repeat:no-repeat;}
+
+
+#scrollUp {
+	width: 300px;
+	height: 18px;
+	display: block;
+	background-image: url(../../Shine_Gallery/wfh/images/up-arrow.png);
+	/*margin-left: 652px;*/
+	border: 2px solid #666;
+	background-color: #999;
+	border-radius: 4px;
+}
+
+#scrollUp a {
+	background-repeat: no-repeat;
+	background-position: top;
+	position: relative;
+}
+
+.scrollUp a:hover {
+	background-image: url(../../Shine_Gallery/wfh/images/up-arrowA.png);
+	width: 300px;
+	height: 18px;
+	display: block;
+	background-repeat: no-repeat;
+	background-position: top;
+	position: relative;
+}
+
+.scrollDown a:hover {
+	width: 300px;
+	height: 18px;
+	display: block;
+	background:url(../../Shine_Gallery/wfh/images/down-arrow.png) no-repeat top;			
+	background-repeat: no-repeat;
+	background-position: top;
+	position: relative;
+
+}
+
+#scrollDown {
+	width: 300px;
+	height: 18px;
+	display: block;
+	background:url(../../Shine_Gallery/wfh/images/down-arrow.png) no-repeat top;			
+	background-repeat: no-repeat;
+	background-position: top;
+	position: relative;
+	/*margin-left: 652px;*/
+	border-radius: 4px;
+	border: 2px solid #666;
+	background-color: #999;
+
+
+}
+
+#thumb-container {width:300px; overflow: hidden; height:400px;} 
+
+#thumb-container2 {
+	width:300px; 
+	height: inherit;
+	overflow: auto; 	
+	border-radius: 10px;
+	border: 2px solid #666;
+	background-color: #999;
+
+} 
+
+
+#contents {
+	overflow: hidden;
+	height: 370px;
+	display: block;
+	width: auto;
+}
+
+  body {
+    margin: 0;
+  }
+
+
+#comparelabel{ margin: -31px 0 0 0;
+padding: 6px;}
+
+#comparevid{width: 20px;}
+
+#lead-column{ 
+width: 811px;
+padding: 33px;
+
+}
+
+.form-holder{ 
+padding: 15px;
+/*width: 700px; */
+}
+
+
+#submarkettitle{width: 100%; color: #F60; margin: -22px 0 0 22px; }
+
+#marketvwcontainer { margin:0; width: 100%; height: 100%;  padding:5px;  border: solid 3px rgb(255, 214, 0); border-radius: 10px;}
+
+
+#marketlinks { float: left; font-size:18px; padding: 15px;}
+
+
+
+#dprice { text-align:center; margin-top: 10px; padding: 2px; font-size:36px; font-weight:bold;}
+
+#strike{ }
+
+#VehicleTitle{}
+
+#vehiclePrice{ float: right; padding: 0 10px 50px 0;
+font-size:16px;
+color: #F60;
+line-height: 22px;
+}
+
+
+
+#vtitle{color:#F60; font-size:32px; position: absolute; overflow-wrap: break-word;
+width: 800px;}
+
+.vehicleBullets{padding: 10px;}
+
+.vehicleBullets li{ color:#000;}
+
+.vehicleBullets li strong{ color:#F60;}
+
+#dealworkurpricing { font-size:18px; margin-right: 5px;}
+
+
+#storeinfo{ padding: 20px 0 0 5px; }
+
+#storePic{
+	float:right;
+	position:relative;
+	display: block;
+	margin-top: -100px;
+	margin-right: 25px;
+	border-radius: 10px;
+	
+}
+
+
+#DealerPitch{  margin-right: 15px;}
+
+#onecircle{
+	width:80px;
+	height:60px;
+	color:#F00;
+	background:url(../images/icons/onecircle.png);
+	background-size:80px 60px;
+	background-repeat:no-repeat;
+	white-space: nowrap;
+	padding-top: 18px;
+	text-indent: 81px;	
+}
+
+
+#twocircle{ 
+	width:80px;
+	height:60px;
+	color:#F00;
+	background:url(../images/icons/twocircle.png);
+	background-size:80px 60px;
+	background-repeat:no-repeat;
+	white-space: nowrap;
+	padding-top: 20px;
+	text-indent: 81px;	
+}
+
+#resultsvary{ color:#00F; font-size:10px; margin-left: 100px;}
+
+
+#threecircle{ 
+	width:80px;
+	height:60px;
+	color:#F00;
+	background:url(../images/icons/threecircle.png);
+	background-size:80px 60px;
+	background-repeat:no-repeat;
+	white-space: nowrap;
+	margin-top: 41px;
+	margin-bottom: -15px;	
+	padding-top: 22px;
+	text-indent: 81px;	
+}
+
+#similar {margin-top: -20px; color:#f60; font-size:18px; font-weight:bold;}
+
+#similarvehicles {
+	background-color:#FFF; padding: 5px 0 40px 5px; 
+	border: 1px solid #DCDADA;
+	border-radius: 5px 5px 5px 5px;
+	}
+
+#similarcontainer{ width: 100%; padding: 55px 0 5px 5px }
+
+#similarimg{ z-index: 1; position: relative; margin-top: 5px; }
+
+#similartitle { width: 155px;
+padding: 1px 1px 0 1px;
+overflow:hidden; display: inline-block; word-wrap: break-word; text-wrap:none;
+  white-space: none;
+    white-space: nowrap;
+    white-space: pre;
+    white-space: pre-wrap;      /* CSS 2.1 */
+    white-space: pre-line;      /* CSS 2.1 */
+    white-space: inherit;
+}
+
+#similarv{ float:left; 
+margin: 5px 10px 5px 10px;
+padding: 5px 0px 10px 20px;; 
+background-color:#CCC;
+
+}
+
+#primaryEmail{display:none;}
+
+#email{ padding:0; border:0; display:none:}
+
+.similarlink{ text-decoration:none;}
+
+#disclaimer{padding:6px;}
+
+.form-holder{
+	font-family: Arial, Helvetica, sans-serif;
+		
+		padding: 4px 0 0 8px
+}
+
+#tradeMake{ width: 137px; overflow:hidden;}
+
+.subSection{padding-top: 10px;}
+
+.leadTop{
+	background-color:#FFF;
+	padding: 10px;	
+	border: 1px solid #DCDADA;
+	border-radius: 5px 5px 5px 5px;
+
+}
+
+
+.contentleadblock{
+	margin-top: 5px;
+	padding-top: 10px;
+	width:100%;
+	font-size:13px;
+	background-color: #FFF;
+	/* color:#936; */
+	border: 1px solid #DCDADA;
+	border-radius: 5px 5px 5px 5px;
+
+	}
+
+#indent{margin-left: 17px;}
+
+
+.contentleadblock p{
+	margin-left: 5px;
+}
+.liner {
+display: inline;
+vertical-align:baseline;
+line-height: 2.5;
+}
+
+
+.lineHolder {
+line-height: 2em;
+position: relative;
+}
+
+
+#label {
+padding-right: 15px;
+}
+
+
+
+.lineHolder input, select{
+border-radius: 3px 3px 3px 3px;
+padding: 3px;
+border-color:#C5C1BB;
+}
+
+.lineHolder select{
+
+}
+
+
+#messageContainer{
+
+}
+
+
+#leadbuton{
+	padding: 5px;
+}

@@ -1,0 +1,93 @@
+@charset "utf-8";
+/* CSS Document */
+
+h3{ background-color:#41a7da;}
+
+#proimg{ width: 50px; height:50px; float:left; padding: 3px;}
+
+#profileLinks{
+	
+	list-style: none;
+	font-weight:bold;
+	margin: 0 0 0 79px;
+}
+
+.linktxt{
+	font-weight:normal;
+	font-style:italic;
+	
+	}
+
+
+#contentaccs{
+background: transparent;
+border: 0 none;
+font-size: 100%;
+margin: 0;
+padding: 0;
+border: 0;
+outline: 0;
+vertical-align: top;	
+}
+
+
+#leftnav{
+	width: 275px;
+	height: 100%;
+	float:left;
+	padding: 5px;
+	border: solid 3px rgb(255, 214, 0);
+	background-color:#FFF;
+	position: relative;
+    border-radius: 5px 5px 5px 5px;
+	
+}
+
+
+#bodyaccs{
+	width:700px;
+	float: right;
+	padding: 5px;
+	background-color:#FFF;
+	position: relative;
+    border-radius: 5px 5px 5px 5px;
+	
+}
+
+#bodyaccs table{
+	overflow:hidden;
+	width: 100%;
+}
+
+#bodyaccs textarea{
+		width: 235px;
+	
+}
+
+#bodyaccs td{
+		vertical-align: middle;
+		font-size:14px;
+		color:#333;
+		text-align:left;
+		padding: 5px;
+
+}
+
+
+
+#bodyaccs input{
+	padding: 5px;
+	background-color:#FFF;
+	position: relative;
+
+}
+
+
+
+
+#mylinks{ padding: 3px; width: 250px;
+}
+
+#mylinks li{ padding: 7px 0 7px 30px;
+
+}

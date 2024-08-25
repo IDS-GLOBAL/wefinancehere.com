@@ -1,0 +1,47 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+
+
+a#user_signinlink{
+	padding-right: 50px;
+}
+
+.model_pick{ cursor: pointer !important;}
+
+div#more_selectionsbox{
+    margin-top: 30px;
+}
+
+div#more_selectionsbox .col-md-6{ background-color:#ccc;}
+div#more_selectionsbox .col-md-6 .row{ padding: 5px;}
+
+div#model_convertible{ background-image:url('../../img/finance-convertible.png'); height: 60px; background-repeat:no-repeat; }
+
+div#model_crossover{ background-image:url('../../img/finance-crossover.png'); height: 60px; background-repeat:no-repeat; }
+
+div#model_coupe{ background-image:url('../../img/finance-coupe.png'); height: 60px; background-repeat:no-repeat; }
+
+div#model_hatchback{ background-image:url('../../img/finance-hatchback.png'); height: 60px; background-repeat:no-repeat;      background-position: 10px; }
+
+div#model_minivan{ background-image:url('../../img/finance-minivan.png'); height: 60px; background-repeat:no-repeat; }
+
+div#model_sedan{ background-image:url('../../img/finance-sedan.png'); height: 60px; background-repeat:no-repeat; }
+
+
+div#model_suv{ background-image:url('../../img/finance-suv.png'); height: 60px; background-repeat:no-repeat; }
+
+div#model_truck{ background-image:url('../../img/finance-truck.png'); height: 60px; background-repeat:no-repeat; }
+
+
+#signin_bar{
+	background: #FFF;
+    text-align: right;
+	padding-right: 105px;
+    margin-top: -120px;
+    line-height: 50px;
+    position: relative;
+
+}

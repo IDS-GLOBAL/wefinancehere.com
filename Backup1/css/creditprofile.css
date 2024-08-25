@@ -1,0 +1,526 @@
+
+/* {margin:0; padding:0; -moz-border-radius: 1px; -webkit-border-radius: 1px;} */
+
+@import url(reset.css);
+
+/* HTML Definitions */
+body 			{ background-color:#b1bdc3; font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#666; margin:0px; line-height:17px; }
+/*non-holiday
+body 			{ background:#b1bdc3; font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#666; margin:10px; line-height:17px; }
+*/
+
+.desc 			{
+	padding: 2px;
+	font-weight:bold;
+	color: #0AFF00;
+}
+.desc input 	{
+	border: thin solid #FC6;
+}
+ul li			{ background:url(ul-li1.gif) no-repeat 0 2px; padding-left:20px; padding-bottom:5px; }
+a				{ color:#005A9A; text-decoration:none; }
+a:hover 		{ color:#ffa429; }
+dl dt 			{  }
+dl dd 			{ padding-left:20px; margin-bottom:15px;}
+
+/* Structure Definitions */
+.layout 			{ width:967px; margin:auto; position:relative; }
+.mobilink		{ position:absolute; top:12px; left:10px; font-size:10px; }
+.mobilink a		{ color:#e9ff91; }
+.mobilink a:hover	{ color:#fff; }
+.adjtop span 	{ display:block; padding:12px 12px; }
+.adjmid			{ background:url(../images/bglayoutimg.png) repeat-y; width:967px; }
+
+.adjmid .left 	{ width:950px; float:left; margin-left:6px; }
+
+
+/* .proFileLeft { width:768px; } */
+.proFileLeft { width:800px; }
+
+.adjmid .right 	{ width:190px; float:left; margin-left:3px; }
+.adjmid .left2 	{ width:190px; float:right; margin-left:3px; }
+.adjbot			{ background:url(../images/bottom.png) no-repeat; height:17px; width:967px; }
+.wrap 			{ width:100%; }
+
+/* Start Navigation */
+.nav 					{ color:#000; font-weight:bold; background:#fff; width:955px; margin:auto; border-bottom:1px solid #ccc; padding-top:10px; }
+.nav a 					{ color:#F00; height:25px; display:block; float:left; font-size:12px; text-indent:16px; overflow:hidden;  }
+.nav a:hover			{ color:#F60; height:25px; display:block; float:left; text-indent:16px; overflow:hidden;  }
+
+
+
+.nav a.Home			{ width:75px; border-right:1px solid #ccc; }
+.nav a.Approved		{ width:111px; border-right:1px solid #ccc; }
+.nav a.NewCarMarkets		{ width:122px; border-right:1px solid #ccc; }
+
+.nav a.Resources		{ width:135px; border-right:1px solid #ccc; } 
+.nav a.Apply				{ width:87px; border-right:1px solid #ccc; } 
+.nav a.napp:hover		{ background-position:center -41px; }
+.nav a.napp.on 			{ background-position:center -91px; }
+
+.nav a.Loan			{ width:95px; border-right:1px solid #ccc; } 
+
+.nav a.Contact			{ width:93px; border-left:1px solid #ccc; } 
+.nav a.Login			{ width:115px; border-left:1px solid #ccc; } 
+
+/* End Navigation */
+
+
+
+
+
+/* Footer */
+.footer 				{ padding:20px 30px 20px 90px; color:#666; background:url(../images/footer_logo.gif) no-repeat 30px 20px; font-size:11px; }
+.footer strong 			{ font-size:14px; font-weight:bold; color:#fff; line-height:30px; padding:0 10px 0 0; border-right:1px solid #999;  }
+.footer a 				{ color:#fff; display:inline-block; padding:0 10px; border-right:1px solid #999; font-weight:bold; font-size:12px; }
+.footer a:hover 		{ color:#c9ff97; }
+	
+/* Buttons */
+.btnlogin 				{ width:75px; height:22px; border:none; background:url(../images/btn_login.gif) no-repeat; text-indent:-500px; font-size:1px; line-height:80px; cursor:pointer; }
+.btnlogin:hover 		{ background-position:0 -23px; } 
+.btnapply1				{ width:108px; height:42px; border:none; background:url(../images/btn_apply1.gif) no-repeat; text-indent:-500px; font-size:1px; line-height:80px; overflow:hidden; }
+.btnapply1:hover 		{ background-position:0 -42px; }
+.home .btnapply1 		{ float:right; }
+
+	/* added 10/25/2012 SK */
+	.btnapply2 { width:171px; margin-right:-30px; margin-top: 14px; height:40px; border:none; background:url(../images/get_approved_today_orange1.png) 0 0 no-repeat; text-indent:-500px; font-size:1px; line-height:80px; overflow:hidden; }
+	.btnapply2:hover { background-position:0 -40px; }
+	.home .btnapply2 { float:right; }
+	/*Pull up CTA area to keep from hanging over bottom border - 10/25/2012 SK*/
+	.page.home .left .intro .pad 	{ padding:10px 50px 30px 50px; }
+
+.left .logo 		{ float:left; width:300px; }
+.left .logo div 	{ padding:20px 50px; }
+.left .intro 		{ float:right; width:450px; }
+.left .intro .pad 	{ padding:50px 50px 30px 50px; }
+
+.right .reviews 	{ display:block; width:162px; height:223px; text-indent:-300px; overflow:hidden;  }
+
+/* Home Definitions */
+/*LF Home*/
+#proFile 	{ font-family: Helvetica, Arial, sans-serif; font-size:12px; line-height:15px; color:#525c61; }
+
+
+#bodyContent {
+	/* background-color:#F00; */
+	display:block;
+	width: 920px;
+	margin-left: 10px;
+	padding:10px;
+}
+
+#Content {
+	/* background-color: #0C9; */
+	padding:10px;
+}
+
+/* .vehicleGallery	{ width:768px; height:337px; background:url(../images/home_bg.jpg) no-repeat top !important; } */
+.spacer	{ width:950px; height:100px; !important; }
+
+
+
+/* .vehicleGallery	{ width:768px; height:337px; background:url(../images/home_bg.jpg) no-repeat top !important; } */
+.vehicleGallery	{ width:950px; height:600px; !important; }
+
+
+#VehicleTitle {
+	width: 100%;
+	position: inherit;
+	float:left;
+	display:block;
+	color: #ff4107;
+	margin-top: 70px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 20px;	
+}
+
+#vehiclePrice{
+	float:right;
+	margin-top: 1px;
+	margin-right: 120px;
+	font-size:16px;
+	line-height: normal;
+}
+
+
+.vehicleDescription{
+	
+}
+.vehicleDescription .vehicleBullets li{
+	list-style-type: none;
+	background: url(../images/checkBullet.png) no-repeat 0px 3px;
+	margin: 0 0 0 0;
+	font-size:12px;
+	font-weight:bold;
+}
+
+.dealerLogo { 
+padding:16px 0 0 50px; 
+float:left; 
+width:195px; 
+}
+
+
+.logoImage {
+	display:block;
+	padding:16px 0 0 50px; 
+	float:left; 
+	width:195px; 
+}
+
+
+.congratsImage {
+	display:block;
+	padding:16px 0 0 50px; 
+	float:left; 
+	width:195px; 
+}
+
+
+.proFileLogo {
+	padding:16px 0 0 50px;
+	float:left;
+	width:195px;
+	position: absolute;
+}
+
+#keep {
+	float:left;
+	display:block;
+	position: relative;
+	width:100%;
+}
+
+.proFileIntro 				{ float:right; /* width:370px; */ margin:0 0 0 0; text-align:left; margin:10px 20px 0 0; }
+.proFileIntro .header1		{ padding:0 0 5px 0; }
+.proFileIntro .header1 h1	{ font-family:"AproFileaSlabOneRegular", Helvetica, Arial, sans-serif; font-size:28px; font-weight: normal; line-height:31px; color:#F60; text-shadow: 0 0 1px rgba(42,89,137,0.3); }
+.proFileIntro .header2		{ font-family:"AproFileaSlabOneRegular", Helvetica, Arial, sans-serif; font-size:19px; line-height:22px; color:#F60; padding:9px 0 2px 0; text-shadow: 0 0 1px rgba(42,89,137,0.3); }
+.proFileIntro .proFileDesc 		{ padding:1px 0 0 0; }
+.proFileIntro .proFileBullets 	{ font-family:"AsapRegular", Helvetica, Arial, sans-serif; font-size:13px; line-height:16px; color:#525c61;  }
+.proFileIntro .proFileBullets ul	{ margin-top:1px; }
+.proFileIntro .proFileBullets li	{ padding-left:15px; list-style-type:none; background:url(../images/checkBullet.png) no-repeat 0px 3px; margin:0 0 0 0; }
+
+
+
+.ApproveME	        { float:right; margin:8px 25px 0 0; }
+
+.ApproveME a        { width:201px; height:53px; background:url(../images/BeginApprovedNow.png) no-repeat top; display:block; }
+
+.ApproveME a:hover	{ background:url(../images/BeginApprovedNow.png) no-repeat bottom; }
+
+
+
+
+.loanqualifyME	  { float:right; margin:8px 25px 0 0; }
+
+.loanqualifyME a        { width:201px; height:53px; background:url(../images/MainCtaBtn.png) no-repeat top; display:block; }
+
+.loanqualifyME a:hover	{ background:url(../images/MainCtaBtn.png) no-repeat bottom; }
+
+#divSocialShare {
+
+width:100%; 
+height:42px; 
+margin:0 0 0 0; 
+padding:0 0 0 15px; 
+
+background-repeat: repeat-x; 
+text-align:left; 
+font-family:Helvetica, Arial, sans-serif; 
+font-size:19px; 
+line-height:20px; c
+olor:#fff; 
+letter-spacing:1px; 
+text-shadow: 0 0 1px rgba(42,89,137,0.3); 
+}
+
+#fbshare {width:122px; height:42px;  margin:8px 25px 0 0; background:url(../images/facebook_button.png) no-repeat; }
+
+.dividingSmallSpaceBar		{ width: 950px; height:25px; margin:0 0 0 0; padding:0 0 0 0; background-image: url(../images/divspacebar.png); background-repeat: repeat-x; }
+
+.dividingSpaceBar		{ 
+float:left; 
+width:100%; 
+height:42px; 
+margin:0 0 0 0; 
+background-image: url(../images/divspacebar.png); 
+background-repeat: repeat-x; 
+text-align:left; 
+font-family:Helvetica, Arial, sans-serif; 
+font-size:19px; 
+line-height:20px; 
+color:#fff; 
+letter-spacing:1px; 
+text-shadow: 0 0 1px rgba(42,89,137,0.3); 
+}
+
+
+
+.dividingSmallThinBar	{ width:950px; height:10px; margin:0 0 0 0; padding:0 0 0 0; background-image: url(../images/divspacebarthin.png); background-repeat: repeat-x; }
+
+
+
+.smtext{font-size:12px;}
+
+
+#bxfCalc .formheader1		{ padding:0 0 6px 0; font-family:"BebasNeueRegular", Helvetica, Arial, sans-serif; font-size:20px; color:#525c61; line-height:1; text-shadow: 0 0 1px rgba(42,89,137,0.3); }
+
+#bxfCalc .goOne1 			{ 
+	/* width: 186px; float: left;*/
+	padding-top: 1px;
+	padding-right: 10px;
+	padding-bottom: 1px;
+	padding-left: 5px;
+	width: 300px;
+}
+
+#bxfCalc .formheader2		{ padding:0 0 6px 0; font-family:"BebasNeueRegular", Helvetica, Arial, sans-serif; font-size:20px; color:#525c61; line-height:1; text-shadow: 0 0 1px rgba(42,89,137,0.3); }
+
+
+
+#bxfCalc .goTwo2 			{ 
+/* width: 112px;  margin-left:72px; */ 
+
+	padding-top: 1px;
+	padding-right: 10px;
+	padding-bottom: 1px;
+	padding-left: 5px;
+	width: 270px;
+
+}
+
+#bxfCalc .goTwo2 input 	{ /* width: 166px; font-size: 20px; */ font-family:"BebasNeueRegular", Helvetica, Arial, sans-serif; color:#525c61;  text-align: left; padding: 2px 2px 0 2px; margin: 0; }
+
+#bxfCalc .goTwo2 .dollarSign 	{ font-family:"BebasNeueRegular", Helvetica, Arial, sans-serif; font-size:20px; color:#525c61; line-height:1; text-shadow: 0 0 1px rgba(42,89,137,0.3); text-align: left; }
+
+.goPad {
+	font-size: 11px;
+	line-height: 13px;
+	color: #525c61;
+	padding: 8px 0 0 0;
+	height: auto;
+}
+
+
+#bxfCalc .goThree 			{ width: 180px; margin-left: 67px; float: left; }
+#bxfCalc .goThree3 			{ 
+
+	padding-top: 1px;
+	padding-right: 10px;
+	padding-bottom: 1px;
+	padding-left: 5px;
+	width: 240px;
+
+	/* padding:10px 0 0 0; float: left; */
+}
+
+#bxfCalc .goThree .label 		{ font-weight: normal; font-size: 11px; padding-left: 10px; }
+#bxfCalc .goThree .debt1 		{ margin: 0 0 1px 0; }
+#bxfCalc .goThree .debt2 		{ margin: 0 0 1px 0; }
+#bxfCalc .goThree .debt3 		{ margin: 0 0 1px 0; }
+#bxfCalc .goThree .debt4 		{ margin: 0 0 1px 0; }
+#bxfCalc .goThree .debtDisc 	{ display: block; margin-top: 10px; font-size: 10px; }
+
+
+#proFileCalc 					{width:950px; /* background:url(../images/letmehelp2.png) no-repeat; */ margin:4px auto; text-align:left; }
+#ApprovalBox 					{
+	width:947px;
+	background:url(../images/letmehelp2.png) no-repeat;
+	text-align:left;
+	margin-top: 4px;
+	margin-right: 67px;
+	margin-bottom: 4px;
+	margin-left: 10px;
+}
+#proFileCalc .formheader1		{ padding:0 0 6px 0; font-family:"BebasNeueRegular", Helvetica, Arial, sans-serif; font-size:20px; color:#ffffff; line-height:1; text-shadow: 0 0 1px rgba(42,89,137,0.3); }
+#proFileCalc .formheader2 		{ padding:4px 0 2px 0; font-family:"BebasNeueRegular", Helvetica, Arial, sans-serif; font-size:20px; color:#525c61; line-height:1; text-shadow: 0 0 1px rgba(42,89,137,0.3); }
+#proFileCalc .proFileCalcTitle span 	{ color:#558c2d; }
+#proFileCalc .proFileCalcBox 				{ padding-top:4px; }
+#proFileCalc .jeCreditPopoutLink i 	{ display: block; padding: 10px 0 0 20px; }
+#proFileCalc .goDesc				{ font-family:"AsapRegular", Helvetica, Arial, sans-serif; font-size:11px; line-height:13px; color:#0B35DB; padding:8px 0 0 0; }
+#proFileCalc .goDesc2				{ font-family:"AsapRegular", Helvetica, Arial, sans-serif; font-size:11px; line-height:13px; color:#0B35DB; padding:8px 5px 0 0; }
+
+
+
+#proFileCalc .goOne 				{ width: 220px;  margin-left:28px; float: left; padding:10px 0 0 15px; }
+
+
+
+#proFileCalc .goTwo 				{ width: 220px;  margin-left:10px; float: left; padding:10px 15px 0 15px; }
+
+#proFileCalc .goTwo .dollarSign 	{ font-family:"BebasNeueRegular", Helvetica, Arial, sans-serif; font-size:20px; color:#525c61; line-height:1; text-shadow: 0 0 1px rgba(42,89,137,0.3); text-align: left; }
+#proFileCalc .goTwo input 			{ width: 166px; font-family:"BebasNeueRegular", Helvetica, Arial, sans-serif; color:#525c61; font-size: 20px; text-align: left; padding: 2px 2px 0 2px; margin: 0; }
+
+
+
+#proFileCalc .goThree 				{ width: 220px;  margin-left:10px; float: left; padding:10px 0 0 15px; }
+
+
+#proFileCalc .goThree .label 		{ font-weight: normal; font-size: 11px; padding-left: 10px; }
+#proFileCalc .goThree input 		{ margin: 2px 0 5px 0; font-size: 20px; }
+
+#proFileCalc .goThree .debt1 		{ margin: 0 0 1px 0; }
+#proFileCalc .goThree .debt2 		{ margin: 0 0 1px 0; }
+#proFileCalc .goThree .debt3 		{ margin: 0 0 1px 0; }
+#proFileCalc .goThree .debt4 		{ margin: 0 0 1px 0; }
+#proFileCalc .goThree .debtDisc 	{ display: block; margin-top: 10px; font-size: 10px; }
+
+
+#proFileCalc .goodCredit 			{ float: left; }
+#proFileCalc .right 					{ float: right; background: none; width: 145px; text-align: right; padding-top: 4px; padding-right: 10px; }
+#proFileCalc .right span				{
+	color:#F30;
+	font-weight: bold;
+}
+#proFileCalc .goOne a {
+	/*	color: #FC0; */
+}
+#proFileCalc .goOne a:hover 		{ color: #ccc; }
+#proFileCalc a.credit1 				{ color:#000; background-color:#FC0; display: block; width: 203px; height: 28px; ; border-bottom: 1px dotted #fff; padding-bottom: 4px; padding-top: 2px; }
+#proFileCalc a.credit1:hover 		{ background-color: #F90; }
+#proFileCalc .goOne i a 			{ color: #005a9a }
+#proFileCalc .goOne i a:hover 		{ color: #ffa429 }
+
+#proFileCalc .proFileCalcAmount 	{ /* width: 768px; */ padding:0 0 1px 0; }
+#proFileCalc .proFileCalcAmount .qualAmount		{ float:left; padding:5px 60px 0 25px; font-family:"BebasNeueRegular", Helvetica, Arial, sans-serif; font-size:31px; color:#525c61; line-height:1; text-shadow: 0 0 1px rgba(42,89,137,0.3); text-align: left; }
+
+#proFileCalc .proFileCalcAmount #chosenloancell	{ 
+/* padding:0 0px 0 25px; */
+font-family: Helvetica, Arial, sans-serif; 
+color:#699e42; 
+font-size: 32px; 
+line-height:1.25; 
+margin: 0; 
+text-shadow: 0 0 1px rgba(42,89,137,0.3); 
+}
+#proFileCalc .proFileCalcAmount .formbtn			{ width:157px; height:39px; cursor:pointer; background:url(../images/contBtm.png) no-repeat top; border:none; cursor: pointer; }
+#proFileCalc .proFileCalcAmount .formbtn:hover	{ background:url(../images/contBtm.png) no-repeat bottom; }
+
+.proFileCalcDisclaimer { color:#999; font-size:11px; line-height:15px; border-top:1px solid #eee; margin-top:10px; padding-top:20px; }
+
+
+.btmcprofile 	{ clear:both; height:20px; font-size:1px; line-height: 1px; }
+
+
+
+
+
+
+
+
+
+/* Misc Definitions */
+.rborder 				{ border-right:1px solid #eee; }
+.col3 					{ }
+.col3 .col 				{ width:180px; float:left; padding:0 20px; }
+.home .col3 .col 		{ min-height:295px; }
+
+.col2					{ width:100% }
+.col2 .col 				{ float:left; width:45%; margin-right:4%; }
+
+.disclaimer 			{ color: #000; font-size:13px; border-top:1px solid #ccc; }
+.footer 			    { color: #000; font-size:13px; border-top:1px solid #ccc; }
+	
+/* Clear Fix */
+	.clearfix:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; }
+	.clearfix {display:inline;}
+	/* Hides from IE-mac \*/
+	* html .clearfix {height: 1%;}
+	.clearfix {display: block;}	
+	
+
+
+.threeColArticle			{ width:230px; float:left; padding:5px 10px 0 10px; font-family:"AsapRegular", Helvetica, Arial, sans-serif; font-size:13px; line-height:16px; color:#525c61;  }
+.threeColArticle .header	{ padding:0 0 4px 0; text-shadow: 0 0 1px rgba(42,89,137,0.3); }
+.threeColArticle .header h2	{ font-family:"AproFileaSlabOneRegular", Helvetica, Arial, sans-serif; font-size:19px; font-weight: normal; line-height:22px; color:rgb(49, 43, 41); text-shadow: 0 0 1px rgba(42,89,137,0.3); }
+.threeColArticle .header h3	{ font-family:"AproFileaSlabOneRegular", Helvetica, Arial, sans-serif; font-size:19px; font-weight: normal; line-height:22px; color:rgb(49, 43, 41); text-shadow: 0 0 1px rgba(42,89,137,0.3); }
+.threeColArticle ul			{ margin-top:1px; }
+.threeColArticle li			{ padding-left:15px; list-style-type:none; background:url(../images/checkBullet.png) no-repeat 0px 3px; margin:0 0 0 0; }
+
+.btmArticles 				{ padding-bottom:10px; }
+.btmArticles h4				{ font-family:"AproFileaSlabOneRegular", Helvetica, Arial, sans-serif; font-size:19px; font-weight: normal; line-height:22px; color:rgb(49, 43, 41); text-shadow: 0 0 1px rgba(42,89,137,0.3); } 
+
+
+
+
+
+
+
+/* This Is Custom er Tags */
+
+#proFileCalcBox{
+	 margin:0; padding:0;
+}
+
+
+.goOne {
+overflow: visible;
+border-radius: 10px;
+border: 2px solid #666;
+background-color: #999;
+
+}
+
+.goOne {
+overflow: visible;
+border-radius: 10px;
+border: 2px solid #666;
+background-color: #999;
+
+}
+
+.goTwo {
+overflow: visible;
+border-radius: 10px;
+border: 2px solid #666;
+background-color: #999;
+
+}
+
+
+.goThree {
+overflow: visible;
+border-radius: 10px;
+border: 2px solid #666;
+background-color: #999;
+
+}
+
+.goFour {
+overflow: visible;
+border-radius: 10px;
+border: 2px solid #666;
+background-color: #999;
+
+}
+
+#PreApproveMeButton {padding:10px; font-size: 20px; font-weight:bold; cursor: pointer;}
+
+#processmeButton { padding: 10px; font-weight:bold; cursor: pointer; }
+
+#phone-box-info {position: static; margin-top: 2px; }
+
+#storePic{
+	float:right;
+	position:relative;
+	display: block;
+	margin-top: -150px;
+	margin-right: 200px;
+	border-radius: 10px;
+
+}
+
+#DealerPitch{ width:300px; }
+
+#mapMrkts{
+	top: 100px;
+	float: right;
+	/*margin-top: -390px; */
+}
+
+#underDisplay{
+	font-size:16px; font-weight:bold;
+	padding:10px;
+
+}
