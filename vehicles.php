@@ -316,16 +316,17 @@ endif;
 	
 	
 	
-	$sysadd_dwnpymt = '200.00';
+	$sysadd_dwnpymt = (float) 200.00;
 
-    $vrprice = $row_LiveVehicles['vrprice'];
+    $vrprice = (float) $row_LiveVehicles['vrprice'];
 	if (is_numeric($vrprice)) {
         //  http://php.net/manual/en/function.is-int.php
 	    $VPrice_missing = 0;
-	    $VPrice = intval(preg_replace('/[^0-9]+/', '', $vrprice), 10);
+	    //$VPrice = intval(preg_replace('/[^0-9]+/', '', $vrprice), 10);
+	    $VPrice = (float) $vrprice;
     } else {
 	    $VPrice_missing = 1;
-	    $VPrice = $row_LiveVehicles['vrprice'];
+	    $VPrice = (float) $row_LiveVehicles['vrprice'];
     }
 
     $vspecialprice = $row_LiveVehicles['vspecialprice'];
@@ -336,12 +337,12 @@ endif;
 			$VSPrice = intval(preg_replace('/[^0-9]+/', '', $vspecialprice), 10);
 			$VSPrice_missing = 0;
 		} else {
-			$VSPrice = $row_LiveVehicles['vspecialprice'];
+			$VSPrice = (float) $row_LiveVehicles['vspecialprice'];
 			$VSPrice_missing = 1;
 		}
 		if($VSPrice_missing != 1){
-			if($VPrice < $VSPrice){
-			   $VPrice = $VSPrice;
+			if((float)  $VPrice < (float) $VSPrice){
+				(float)  $VPrice = (float)  $VSPrice;
 			}
 		}
 
@@ -350,10 +351,11 @@ endif;
 
 	if(isset($row_LiveVehicles['vpurchasecost'])){ 
 			$vpurchasecost_aval = 1;
-			$vpurchasecost = $row_LiveVehicles['vpurchasecost'];
+			
+			$vpurchasecost = (float) $row_LiveVehicles['vpurchasecost'];
 	}else{
 			$vpurchasecost_aval = 0;
-			$vpurchasecost = $row_LiveVehicles['vpurchasecost'];
+			$vpurchasecost = (float) $row_LiveVehicles['vpurchasecost'];
 	}
 
 		 
@@ -387,7 +389,7 @@ endif;
 			$newfullsalesTax = $row_LiveVehicles['vadvalorem_tax'];
 		}else{
 			
-			//$newfullsalesTax = 0.00;
+			$newfullsalesTax = 0.00;
 		}
 	}
 	
@@ -576,7 +578,7 @@ $wfhuser_approval_dwpymt = $row_find_existingsession_approval['wfhuser_approval_
         <?php else: ?>
         <div class="col-sm-6 pull-right vc">
         	<br />
-            <h4>Contract This Vehicle</h4> 
+            <h4>Contract This Vehicle <?php echo $VPrice;?></h4> 
             
             
            	<?php if($VPrice){ ?>  
