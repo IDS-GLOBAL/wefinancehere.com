@@ -86,8 +86,8 @@ div#budget_action {
 }
 
 
-div#intro_box h1, div#intro_box h2, div#intro_box h3, div#intro_box h4, div#intro_box h5,{
-	color:#FF5722;
+div#intro_box h1, div#intro_box h2, div#intro_box h3, div#intro_box h4, div#intro_box h5 {
+	color: #FF5722;
 }
 
 .media .media-object {
@@ -2619,7 +2619,7 @@ a.list-group-item.active .list-group-item-text, a.list-group-item.active:hover .
 	box-shadow:0 1px 0 0 #fff
 }
 footer.footer-container {
-    margin-bottom: 71px;
+    /* margin-bottom: 71px; */
 }
 .footer-container {
 	color:#e8e8e8

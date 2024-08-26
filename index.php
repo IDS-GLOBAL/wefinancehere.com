@@ -956,7 +956,7 @@ google.maps.event.addDomListener(window, 'load', initialize);
 
 
 
-	<section class="wrapper-md bg-primary" id="recently_sold">
+	<!---section class="wrapper-md bg-primary" id="recently_sold">
 		<div class="container">
 			<h2 class="text-center headline">Recently Sold</h2>
 			<br class="spacer-lg">
@@ -964,41 +964,42 @@ google.maps.event.addDomListener(window, 'load', initialize);
             
 			
             
-<?php do { ?>
-<?php
-$row_pub_sold_view['vid'];
+				<?php //do { ?>
 
-$open_url = "https://images.autocitymag.com/".$row_pub_sold_view['did'].'/'.$row_pub_sold_view['vid'].'/'.$row_pub_sold_view['vthubmnail_file'];
-?>
-     
-            	<div class="col-sm-6 col-md-3">
-					<div class="thumbnail text-default">
-						<div class="overlay-container">
-							<img src="<?php echo $open_url; ?>">
-							<div class="overlay-content">
-								<h3 class="h4 headline">Sold Vehicles</h3>
-								<p>Example of there great deals done already.</p>
-							</div><!-- /.overlay-content -->
-						</div><!-- /.overlay-container -->
-						<div class="thumbnail-meta vehicle_descip_box_layout_sm">
-							<i class="fa fa-fw fa-info-circle"></i> <?php echo $row_pub_sold_view['vyear']; ?> <?php echo $row_pub_sold_view['vmake']; ?> <?php echo $row_pub_sold_view['vmodel']; ?> <?php echo $row_pub_sold_view['vtrim']; ?>
+					<?php
+					// $row_pub_sold_view['vid'];
+
+					// $open_url = "https://images.autocitymag.com/photos/".$row_pub_sold_view['did'].'/'.$row_pub_sold_view['vid'].'/'.$row_pub_sold_view['vthubmnail_file'];
+					?>
+
+					<div class="col-sm-6 col-md-3">
+						<div class="thumbnail text-default">
+							<div class="overlay-container">
+								<img src="<?php //	echo $open_url; ?>">
+								<div class="overlay-content">
+									<h3 class="h4 headline">Sold Vehicles</h3>
+									<p>Example of there great deals done already.</p>
+								</div>
+							</div>
+							<div class="thumbnail-meta vehicle_descip_box_layout_sm">
+								<i class="fa fa-fw fa-info-circle"></i> <?php //	echo $row_pub_sold_view['vyear']; ?> <?php //	echo $row_pub_sold_view['vmake']; ?> <?php //	echo $row_pub_sold_view['vmodel']; ?> <?php //	echo $row_pub_sold_view['vtrim']; ?>
+							</div>
+							<div class="thumbnail-meta">
+								<p><i class="fa fa-fw fa-home"></i> <?php //	echo $row_pub_sold_view['address']; ?></p>
+								<p><i class="fa fa-fw fa-map-marker"></i> <?php //	echo $row_pub_sold_view['city']; ?>, <?php //	echo $row_pub_sold_view['state']; ?>  <?php //	echo $row_pub_sold_view['zip']; ?></p>
+							</div>
+							<div class="thumbnail-meta">
+								<i class="fa fa-fw fa-dollar"></i> <span class="h3 heading-default"><?php if(!$row_pub_sold_view['vrprice']){   echo 'Unlisted'; }else{ echo formatMoney($row_pub_sold_view['vrprice'] , true); } ?></span> <a class="btn btn-link pull-right">SOLD <i class="fa fa-flag"></i></a>
+							</div>
 						</div>
-						<div class="thumbnail-meta">
-							<p><i class="fa fa-fw fa-home"></i> <?php echo $row_pub_sold_view['address']; ?></p>
-							<p><i class="fa fa-fw fa-map-marker"></i> <?php echo $row_pub_sold_view['city']; ?>, <?php echo $row_pub_sold_view['state']; ?>  <?php echo $row_pub_sold_view['zip']; ?></p>
-						</div>
-						<div class="thumbnail-meta">
-							<i class="fa fa-fw fa-dollar"></i> <span class="h3 heading-default"><?php if(!$row_pub_sold_view['vrprice']){   echo 'Unlisted'; }else{ echo formatMoney($row_pub_sold_view['vrprice'] , true); } ?></span> <a class="btn btn-link pull-right">SOLD <i class="fa fa-flag"></i></a>
-						</div>
-					</div><!-- /.thumbnail -->
-				</div><!-- /.col -->
+					</div>
 		  
-  <?php } while ($row_pub_sold_view = mysqli_fetch_array($pub_sold_view)); ?>         
+  				<?php // } while ($row_pub_sold_view = mysqli_fetch_array($pub_sold_view)); ?>         
           
           
-          </div><!-- /.row -->
-	  </div><!-- /.container -->
-	</section>
+          </div>
+	  </div>
+	</section --->
 
 	<section class="wrapper-md" id="choose_us">
 		<div class="container">
